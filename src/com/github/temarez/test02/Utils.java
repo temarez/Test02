@@ -1,3 +1,4 @@
+package com.github.temarez.test02;
 
 public class Utils {
 
