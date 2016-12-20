@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-import com.github.temarez.test02.Utils;
+import com.github.temarez.test02.utils.Utils;
 
 public class Test02Main {
 	
@@ -9,9 +9,12 @@ public class Test02Main {
 		testStrings.add("1221");
 		testStrings.add("1121");
 		testStrings.add("TENET");
+		testStrings.add("Eye");
+		testStrings.add("did");
+		testStrings.add("not");
 		
 		for(String curString : testStrings) {
-			System.out.println(curString + " " + Utils.isPalindrome1(curString));
+			System.out.println(curString + " " + Utils.isPalindromeEfficient(curString));
 		}
 	}
 	
